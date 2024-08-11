@@ -5,7 +5,7 @@ services:
     container_name: tg_keyword_reply
     restart: always
     build: .
-    # command: /bot -t   -s 
+    #command:  -t 机器人token  -s 管理员id
     volumes:
       - ./env:/app/conf
     environment:
