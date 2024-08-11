@@ -36,7 +36,7 @@ func Init(newToken string) (token string) {
 		token = newToken
 		if tokenSetting.ID > 0 {
 			tokenSetting.Value = newToken
-			db.Model(&tokenSetting).Update(tokenSetting)
+			db.Model(&tokenSetting).Updates(tokenSetting)
 		} else {
 			db.Create(&setting{
 				Key:   "token",
