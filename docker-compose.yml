@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  tg_keyword_reply:
+    image:  tg_keyword_reply:localhost
+    container_name: tg_keyword_reply
+    restart: always
+    build: .
+    # command: /bot -t   -s 
+    volumes:
+      - ./env:/app/conf
+    environment:
+      TZ: Asia/Shanghai
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

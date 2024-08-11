@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#rm ./main
+
+#docker build -t annona/tg_keyword_reply:beta .   &&  docker push annona/tg_keyword_reply:beta
+docker build -t tg_keyword_reply:localhost .
+#docker image ls
