@@ -11,7 +11,7 @@ import (
 const addText = "格式要求:\r\n" +
 	"`/add 关键字===回复内容`\r\n\r\n" +
 	"例如:\r\n" +
-	"`/add 机场===https://jiji.cool`\r\n" +
+	"`/add 机场===https://t.me/umfaka`\r\n" +
 	"就会添加一条规则, 关键词是机场, 回复内容是网址"
 const delText = "格式要求:\r\n" +
 	"`/del 关键字`\r\n\r\n" +
