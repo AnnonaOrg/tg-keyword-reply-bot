@@ -1,4 +1,4 @@
-FROM golang:alpine as builder
+FROM golang:alpine3.18 as builder
 
 RUN apk add --no-cache git build-base
 WORKDIR /src
@@ -9,7 +9,7 @@ RUN git checkout master && \
     make linux-amd64 && \
     mv ./bin/bot-linux-amd64 /bot
 
-FROM alpine:latest
+FROM alpine:3.18
 
 COPY --from=builder /bot /
 ENTRYPOINT ["/bot"]
