@@ -18,8 +18,20 @@
 - 同理,gif将`photo`替换成`gif`,视频替换成`video`,文件替换成`file`
 - 注意: 这里的链接必须是公开群组的,否则无法发出来
 
+
+# 有问题反馈
+在使用中有任何问题，欢迎反馈
+开发机器人频道: [@umfaka](https://t.me/umfaka)
+
+# 打赏
+如果该项目对您有所帮助，希望可以请我喝一杯咖啡☕️
+Usdt(trc20)打赏地址: 
+```
+TJAT3sPPpmMxo1fkf5o7F3rWXzFvqWN9Zu
+```
+
 ## License
 
-MIT zu1k i@zu1k.com
+MIT
 
 不提供任何机器人相关的咨询或其他服务，不要私聊我
